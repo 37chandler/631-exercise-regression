@@ -126,3 +126,7 @@ You can run this from inside a notebook cell by prefixing with `!`:
 - **`car_listings`** — Craigslist used-car listings with `price`, `odometer`, `year`, `make`, `model`, and `location`
 - **`loans_full_schema`** — 10,000 Lending Club loans; used in the Chapter 8 MLR example
 - **`email`** — 3,921 emails classified as spam or not spam; used in the Chapter 8 logistic regression example
+
+## Getting feedback
+
+This exercise provisions like an assignment: clone it, do your work on the `work` branch, and commit and push as normal — so every exercise rehearses the same loop you'll use for graded work. It isn't graded, though, and nothing here gets merged; there's no "Complete." When you'd like me to look at something, open this repo's pull request and **request me as a reviewer** (the **Reviewers** gear, top-right). That's how you raise your hand — use **Re-request review** after you push more. I'll reply with comments on the pull request. Full walkthrough: the **Gittin' Started with Git** page on Canvas.
