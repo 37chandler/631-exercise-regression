@@ -19,7 +19,7 @@ By completing these exercises, you will practice:
 
 ## Data Setup
 
-Place the following CSV files in this folder before running the notebooks. The IMS datasets (`loan50.csv`, `county.csv`, `loans_full_schema.csv`, `email.csv`) are available in the `data.zip` on Canvas. `car_listings.csv` is available separately on Canvas.
+Download `car_listings.zip` and `m05-regression-ims-data.zip` from the Module 5 exercise page on Canvas. Place `car_listings.zip` in this folder without unzipping it. Unzip `m05-regression-ims-data.zip` into this folder so the four small IMS CSV files sit beside the notebooks. Keep all data files out of Git.
 
 Your folder should look like:
 
@@ -27,13 +27,11 @@ Your folder should look like:
 631-exercise-regression/
 ├── README.md
 ├── exercise-ims-ch7.ipynb
-├── exercise-ims-ch7-solutions.ipynb
 ├── exercise-car-regression.ipynb
-├── exercise-car-regression-solutions.ipynb
-├── IMS Chapter 8 Code.ipynb
+├── ims-ch8-code.ipynb
 ├── loan50.csv
 ├── county.csv
-├── car_listings.csv
+├── car_listings.zip
 ├── loans_full_schema.csv
 └── email.csv
 ```
@@ -41,10 +39,8 @@ Your folder should look like:
 ## Notebooks
 
 - **`exercise-ims-ch7.ipynb`** — IMS Chapter 7 concepts translated to Python. Work through this during class; finish afterward if needed. Some cells are complete, others have `# YOUR CODE HERE` gaps to fill in.
-- **`exercise-ims-ch7-solutions.ipynb`** — Complete solutions for instructor use.
-- **`exercise-car-regression.ipynb`** — "Guess the Price" activity: use F-150 listings to refine a price estimate, then formalize the process with a regression model.
-- **`exercise-car-regression-solutions.ipynb`** — Complete solutions with instructor notes and visualizations for the reveal.
-- **`IMS Chapter 8 Code.ipynb`** — Fully worked Python examples for IMS Chapter 8 (inference for regression). For student reference — no blanks to fill in.
+- **`exercise-car-regression.ipynb`** — "Guess the Price" activity: use F-150 listings to refine a price estimate, then formalize the process with a regression model. The notebook begins with Minneapolis listings, then widens to all cities before fitting the location indicator.
+- **`ims-ch8-code.ipynb`** — Fully worked Python examples for IMS Chapter 8 (inference for regression). For student reference — no blanks to fill in.
 
 ## Topics Covered
 
@@ -84,7 +80,7 @@ Your folder should look like:
 ### `exercise-car-regression.ipynb`
 
 **Part 1: Guess the Price**
-- Open exploration with `car_listings.csv` filtered to F-150s
+- Open exploration with `car_listings.zip` filtered to F-150s
 - Progressively narrow in on a specific listing using summary statistics and plots
 
 **Part 2: A Regression Model**
@@ -93,7 +89,7 @@ Your folder should look like:
 - Extracting and interpreting each coefficient
 - Making a prediction for the specific listing and comparing to the actual price
 
-### `IMS Chapter 8 Code.ipynb` (reference)
+### `ims-ch8-code.ipynb` (reference)
 
 - SLR inference: bootstrap CI and t-test for the slope
 - L-I-N-E diagnostic plots
@@ -117,7 +113,7 @@ You can run this from inside a notebook cell by prefixing with `!`:
 1. Place the data files in this folder (see **Data Setup** above)
 2. Open `exercise-ims-ch7.ipynb` and `exercise-car-regression.ipynb` in Jupyter or VS Code
 3. Complete the sections marked `# YOUR CODE HERE` and the written answer cells
-4. Refer to the solutions notebooks if you get stuck
+4. If you get stuck, check your inputs and intermediate results, then ask for feedback in your exercise pull request
 
 ## Datasets
 
