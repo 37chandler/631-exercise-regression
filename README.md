@@ -27,7 +27,9 @@ Your folder should look like:
 631-exercise-regression/
 ├── README.md
 ├── exercise-ims-ch7.ipynb
+├── exercise-ims-ch7-solutions.ipynb
 ├── exercise-car-regression.ipynb
+├── exercise-car-regression-solutions.ipynb
 ├── ims-ch8-code.ipynb
 ├── loan50.csv
 ├── county.csv
@@ -39,7 +41,9 @@ Your folder should look like:
 ## Notebooks
 
 - **`exercise-ims-ch7.ipynb`** — IMS Chapter 7 concepts translated to Python. Work through this during class; finish afterward if needed. Some cells are complete, others have `# YOUR CODE HERE` gaps to fill in.
+- **`exercise-ims-ch7-solutions.ipynb`** — Worked reference for checking your Chapter 7 exercise after attempting it.
 - **`exercise-car-regression.ipynb`** — "Guess the Price" activity: use F-150 listings to refine a price estimate, then formalize the process with a regression model. The notebook begins with Minneapolis listings, then widens to all cities before fitting the location indicator.
+- **`exercise-car-regression-solutions.ipynb`** — Worked reference and plots for checking the car-price exercise after attempting it.
 - **`ims-ch8-code.ipynb`** — Fully worked Python examples for IMS Chapter 8 (inference for regression). For student reference — no blanks to fill in.
 
 ## Topics Covered
@@ -113,7 +117,7 @@ You can run this from inside a notebook cell by prefixing with `!`:
 1. Place the data files in this folder (see **Data Setup** above)
 2. Open `exercise-ims-ch7.ipynb` and `exercise-car-regression.ipynb` in Jupyter or VS Code
 3. Complete the sections marked `# YOUR CODE HERE` and the written answer cells
-4. If you get stuck, check your inputs and intermediate results, then ask for feedback in your exercise pull request
+4. After attempting a question, compare your result with the corresponding solutions notebook. If you are still stuck, ask for feedback in your exercise pull request.
 
 ## Datasets
 

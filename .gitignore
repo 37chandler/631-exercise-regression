@@ -8,8 +8,7 @@
 # Uncomment the next line only in repos where .txt data arrives via Canvas:
 # *.txt
 
-# Solutions and instructor scratch
-*solution*
+# Instructor scratch (exercise solution notebooks are student-facing)
 *-old.ipynb
 chapters_7_8_worked_examples.ipynb
 archive/*
